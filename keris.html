@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>디지털교육 성과 진단 및 효과 분석 연구_질적연구</title>
+<style>
+  :root{
+    --green:#7187e2; --black:#000; --purple:#5b10a0; --bluegray:#6c7db3;
+    --pink:#f8a8bd; --coral:#f27963; --orange:#f39854; --yellow:#e8bf41; --leaf:#7fbe85;
+    --ink:#0f1b2d; --link:#0d3b8e; --bg:#fff; --muted:#6270852e; --radius:14px;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font:16px/1.45 "Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",
+          system-ui,-apple-system,Segoe UI,Roboto,Arial,"Apple Color Emoji","Segoe UI Emoji",sans-serif;
+    -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
+  }
+  .title{background:var(--green); color:#123c14; font-weight:700; letter-spacing:.2px;
+    padding:14px 18px; border-bottom:3px solid #4ea051; font-size:26px;}
+  .sub{padding:18px; color:#1f2937;}
+
+  /* Ubuntu/WSL 안내 배너 */
+  .banner{
+    margin:0 18px 6px; padding:10px 14px; border-radius:10px;
+    background:#f6f7fb; border:1px solid #dde1ee; font-size:14px;
+  }
+  .banner code{background:#eef1f7; padding:2px 6px; border-radius:6px}
+
+  .grid{
+    display:grid; grid-template-columns:minmax(280px,520px) 1fr 1fr 1fr;
+    gap:14px 22px; padding:10px 18px 48px; align-items:center;
+  }
+  .row{display:contents}
+  .label{
+    display:flex; align-items:center; min-height:48px; padding:12px 18px;
+    border-radius:var(--radius); color:#fff; font-weight:800;
+    box-shadow:0 1px 0 #00000020 inset, 0 2px 6px #00000014;
+    white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+  }
+  .black{background:var(--black)} .purple{background:var(--purple)}
+  .bluegray{background:var(--bluegray)} .pink{background:var(--pink); color:#2a141a}
+  .coral{background:var(--coral)} .orange{background:var(--orange)}
+  .yellow{background:var(--yellow); color:#2b2105} .leaf{background:var(--leaf)}
+
+  .chip{
+    display:inline-flex; align-items:center; gap:8px; padding:10px 14px;
+    border-radius:var(--radius); border:1.5px solid #d4d7df; background:#fff;
+    color:var(--link); font-weight:700; text-decoration:none; justify-self:start;
+    box-shadow:0 1px 0 #0000000d;
+  }
+  .chip:hover{border-color:#b8bfd0; transform:translateY(-1px)}
+  .icon{font-size:18px; line-height:1}
+  .ghost{background:transparent; border-color:transparent; color:transparent; pointer-events:none}
+  .grid .rule{grid-column:1 / -1; height:1px; background:var(--muted); margin:6px 0 14px;}
+
+  @media (max-width:960px){
+    .grid{grid-template-columns:1fr 1fr}
+    .chip{justify-self:stretch; text-align:center}
+    .ghost{display:none}
+    .rule{grid-column:1 / -1}
+  }
+</style>
+</head>
+<body>
+  <div class="title">디지털교육 성과 진단 및 효과 분석 연구_질적연구(조영환 교수님, 박지용, 이정찬, 조민선, 조애영)</div>
+  <p class="sub"> 연구문제<br>
+   1) AI 디지털 교육 발달 단계에 따라 학교를 어떻게 분류할 수 있는가? <br>
+   2) AI 디지털 교육 발달 단계 간 차이가 발생하는 이유는 무엇인가? <br>
+   3) AI 디지털 교육 발달을 위해 학교 관리자와 교사는 무엇을 해야 하는가? </p>
+
+  <section class="grid">
+    <div class="row">
+      <div class="label black">연구계획</div>
+      <a href="https://docs.google.com/document/d/18FOXMbeCdeTTTF9dy57TC5KfxB3ZA4RCY7TKTFKZhTI/edit?usp=sharing" class="chip" target="_blank" rel="noopener">
+        <span class="icon">🔗</span>연구계획서</a>
+      <span class="ghost chip">.</span><span class="ghost chip">.</span>
+      <div class="rule"></div>
+    </div>
+
+    <div class="row">
+      <div class="label bluegray">STEP 1 - 사전 회의</div>
+      <a href="./step1/directions.html" class="chip" target="_blank" rel="noopener"><span class="icon">📝</span>사전 회의 계획</a>
+      <a href="./step1/rubric.pdf" class="chip" target="_blank" rel="noopener"><span class="icon">📝</span>사전 회의록</a>
+      <span class="ghost chip">.</span>
+      <div class="rule"></div>
+    </div>
+
+    <div class="row">
+      <div class="label pink">STEP 2 - 수업관찰</div>
+      <a href="https://docs.google.com/document/d/1OKsKRzVTBcmM4tKCsq9vdQyWKmeGaH_hR9U3hFS1jWc/edit?usp=sharing" class="chip" target="_blank" rel="noopener"><span class="icon">📋</span>Field note</a>
+      <a href="./step2/data-collection.xlsx" class="chip" target="_blank" rel="noopener"><span class="icon">📊</span>Data Collection</a>
+      <div class="rule"></div>
+    </div>
+
+    <div class="row">
+      <div class="label coral">STEP 3 - 학생면담</div>
+      <a href="https://docs.google.com/document/d/1lP0VVC0hr60JD0IazV1zHehBNdCXHOs4e4bjo8xf6d8/edit?usp=sharing" class="chip" target="_blank" rel="noopener"><span class="icon">👦👧</span>학생 면담지</a>
+      <a href="./step3/data-collection.xlsx" class="chip" target="_blank" rel="noopener"><span class="icon">📊</span>Data Collection</a>
+      <span class="ghost chip">.</span>
+      <div class="rule"></div>
+    </div>
+
+    <div class="row">
+      <div class="label orange">STEP 4 - 교사면담</div>
+      <a href="https://docs.google.com/document/d/1lP0VVC0hr60JD0IazV1zHehBNdCXHOs4e4bjo8xf6d8/edit?usp=sharing" class="chip" target="_blank" rel="noopener"><span class="icon">👩‍🏫</span>교사 면담지</a>
+      <a href="./step3/data-collection.xlsx" class="chip" target="_blank" rel="noopener"><span class="icon">📊</span>Data Collection</a>
+      <span class="ghost chip">.</span>
+      <div class="rule"></div>
+    </div>
+
+    <div class="row">
+      <div class="label yellow">STEP 5 - 관리자면담</div>
+      <a href="https://docs.google.com/document/d/1LFmB5OWN_Mi6bqRtLWd4FVkGgs9A9gIPhGLoGFNN4xQ/edit?usp=sharing" class="chip" target="_blank" rel="noopener"><span class="icon">👨‍💼</span>관리자 면담지</a>
+      <a href="./step3/data-collection.xlsx" class="chip" target="_blank" rel="noopener"><span class="icon">📊</span>Data Collection</a>
+      <span class="ghost chip">.</span>
+      <div class="rule"></div>
+    </div>
+
+        <div class="row">
+      <div class="label leaf">STEP 6 - 수업자료 분석</div>
+      <a href="https://drive.google.com/drive/folders/1S1o6iM7SqctgiEjzoItqBO1lHuKuRWsm?usp=sharing" class="chip" target="_blank" rel="noopener"><span class="icon">📖</span>교수학습자료</a>
+      <a href="https://drive.google.com/drive/folders/1_9if-YrtG8j0xKo2IRebbKKuji0njN6z?usp=sharing" class="chip" target="_blank" rel="noopener"><span class="icon">📖</span>학생 활동 결과물</a>
+      <span class="ghost chip">.</span>
+      <div class="rule"></div>
+    </div>
+  </section>
+
+<script>
+  // 파일로 열었을 때와 WSL/리눅스에서 안내 배너 표시
+  (function(){
+    var tip = document.getElementById('run-tip');
+    var isFile = location.protocol === 'file:';
+    var isLinux = navigator.userAgent.toLowerCase().includes('linux');
+    if (tip && (isFile || isLinux)) tip.hidden = false;
+  })();
+</script>
+</body>
+</html>
